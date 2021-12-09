@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spacing</title>
+  <style>
+    picture img {
+      width: 100%;
+    }
+
+    header div svg {
+      width: 40px;
+      stroke: ffffff;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../about.html">About</a></li>
+        <li><a href="../form.html">Form</a></li>
+        <li><a>CSS Topics</a></li>
+
+      </ul>
+    </nav>
+
+    <div>
+      <svg viewbox="0 0 120 120">
+        <line x1="0" y1="60" x2="120" y2="60" stroke="red" stroke-width="5" />
+        <line x1="0" y1="80" x2="120" y2="80" stroke="cyan" stroke-width="5" />
+      </svg>
+    </div>
+    <p>Above is an inline SVG. I hope that we can use this for a menu later. Yes I understand that it is huge.</p>
+  </header>
+  
+  <h1>CSS Topic Presentation!! - Spacing </h1>
+  <p>To most people, they won't notice spacing between letters and between words other than the usual " " space like
+    this one that we're used to. </p>
+  <p>So today I'll teach you about "letter-spacing" and "word-spacing"</p>
+  <br>
+  <h2>So let's start with SPACES BETWEEN LETTERS</h2>
+  <p>Just to be clear, to do this we will be using <strong>letter-spacing</strong> to make this happen <br> and this is
+    measured in the following three ways below.</p>
+  <ul>
+    <dl>
+      <li>
+        <dt>letter-spacing: XX px</dt>
+      </li>
+      <dd>formats the letter spacing using pixel values</dd>
+      <li>
+        <dt>letter-spacing: em</dt>
+      </li>
+      <dd>formats the letter spacing <u>relative</u> to the font</dd>
+      <li>
+        <dt>letter-spacing: normal</dt>
+      </li>
+      <dd>normal spacing between characters; this is the default</dd>
+    </dl>
+  </ul>
+  <figure>
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="brighamv"
+      data-slug-hash="QWGbbGj"
+      style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+      data-pen-title="CSS - letter spacing">
+      <span>See the Pen <a href="https://codepen.io/brighamv/pen/QWGbbGj">
+          CSS - letter spacing</a> by Brigham (<a href="https://codepen.io/brighamv">@brighamv</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  </figure>
+  <figcaption>Notice on the CSS, I made it 30 px just to make it clear what letter-spacing can do </figcaption>
+
+  <h2>Now on to SPACES BETWEEN WORDS!!</h2>
+  <p>This is important because some fonts have default spacing of "being too dang close to each other and it's really
+    annoying" -Me from past experience</p>
+  <p>word-spacing can be very dynamic and can be changed using normal, px, or even cm!!</p>
+  <ul>
+    <dl>
+      <li>
+        <dt>word-spacing: normal</dt>
+      </li>
+      <dd>normal spacing between characters; this is the default</dd>
+      <li>
+        <dt>word-spacing: XX px</dt>
+      </li>
+      <dd>formats the letter spacing using pixel values</dd>
+      <li>
+        <dt>word-spacing: XX cm</dt>
+      </li>
+      <dd>formats the letter spacing <u>relative</u> to the font</dd>
+
+    </dl>
+  </ul>
+  <figure>
+    <p class="codepen" data-height="265" data-theme-id="light" data-default-tab="html,result" data-user="brighamv"
+      data-slug-hash="jOVPPVW"
+      style="height: 265px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"
+      data-pen-title="CSS topics - word spacing">
+      <span>See the Pen <a href="https://codepen.io/brighamv/pen/jOVPPVW">
+          CSS topics - word spacing</a> by Brigham (<a href="https://codepen.io/brighamv">@brighamv</a>)
+        on <a href="https://codepen.io">CodePen</a>.</span>
+    </p>
+    <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+  </figure>
+  <figcaption>Hope y'all liked it!!!</figcaption>
+</body>
+
+</html>
